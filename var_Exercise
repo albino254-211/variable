@@ -1,0 +1,27 @@
+# Variable_Exercise 
+## 1. Create a variable called name, which is a string set to your current name
+- let name = "Albino";
+## 2. Create a variable called dayOfBirth, which is a number set to the day of your birth month
+- let dayOfBirth = "1/1/1999";
+## 3. See what happens when you have multiple variables of the same name. Which one takes precedence?
+- let name = "Outer Name";
+{
+  let name = "Inner Name";
+  console.log(name); // This will print "Inner Name"
+}
+console.log(name); // This will print "Outer Name"
+
+## 4. Write some JavaScript that prompt’s the user for their favorite color. Once the user has submitted a favorite color, log that color to the console along with a friendly message.
+- let favoriteColor = prompt("what is your favorite color?");
+- console.log("Your favorite color is: " + favoriteColor);
+- console.log("Wow that's a great choice!");
+## 5. Create a string that contains both single quotes and double quotes.
+- let mixedQuotesString = 'This is a string with "double quotes" and \'single quotes\'.';
+console.log(mixedQuotesString);
+## 6. What is the difference between null and undefined?
+- null: Represents the intentional absence of any object value.
+- undefined: Indicates that a variable has been declared but has not been assigned a value.
+## 7. What is NaN in JavaScript? What is the typeof NaN?
+- NaN: Stands for "Not-a-Number" and represents an invalid arithmetic operation. eg wklfg.
+## 8. You can declare a variable by typing let thing;. What is the value of thing?
+- let thing = ""; is undifined.
